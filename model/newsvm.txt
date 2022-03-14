@@ -1,0 +1,8 @@
+步骤：
+（1）准备训练样本集合；包括正样本集（posdata1）、负样本集（Negative）和测试集（TestData）（一张图片即可）；sum0.py文件中进行（下同）
+（2）合并正负样本集合，同时设置对所有正负样本赋予样本标签；例如，所有正样本标记为1，所有负样本标记为-1；
+（3）提取样本的hog特征并计算，将结果保存到特征向量矩阵中利用HOGDescriptor、hog.compute函数进行
+（4）创建SVM训练器，将样本的Hog特征和样本的标签输入到SVM中进行训练，并保存为“svm.xml”；我们采用线性SVM；
+线性SVM中的一个数组support?vector，另一个数组alpha中的浮点数rho;将alpha矩阵同support?vector相乘，得到一个列向量，向列向量的最后添加一个元素rho。如此，变得到了一个分类器，利用该分类器，直接替换opencv中行人检测默认的那个分类器（cv::HOGDescriptor::setSVMDetector()），就可以利用你的训练样本训练出来的分类器进行行人检测了。
+（7）为后续检测设置HOGDescriptor函数的检测子并保存为“svmtest.xml”（利用setSVMDetector函数）检测子参数到文件  2.py文件中进行
+（8）读入图片进行检测	3.py文件中进行

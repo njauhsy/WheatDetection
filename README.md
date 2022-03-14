@@ -31,7 +31,20 @@
 	（1）开发环境：pycharm、python 3.6、opencv
 	
 	（2）运行环境： 需要在含有python 3.6及其以上的环境下运行
+	
+下图为用户使用平台
+
 ![image](https://user-images.githubusercontent.com/45091118/158158037-5c1a0a18-d42c-4c89-b4d9-3c0ee976e8c7.png)
+
+点击加载图片的按钮可以选择任意英文路径文件夹下的图片，并点击点击三种检测方法中的一种便可以对加载的小麦图片进行麦穗检测
+
+![image](https://user-images.githubusercontent.com/45091118/158159025-3c675eb2-4ebf-40bd-a196-56dd3c9fee51.png)
+
+点击识别结果的按钮,可以查看使用某种检测方法后识别出来的麦穗的数量
+
+![image](https://user-images.githubusercontent.com/45091118/158159110-f58e8fb0-d691-4ce8-9062-46364cf03f65.png)
+
+
 
 
 

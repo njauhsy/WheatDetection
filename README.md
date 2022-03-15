@@ -1,4 +1,4 @@
-# WheetDetection
+# WheatDetection
 基于HAAR+Adaboost与LBP+Adaboost的麦穗识别
 基于机器学习的麦穗识别系统分为用户使用和管理员使用两个模块：
 

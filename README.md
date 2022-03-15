@@ -44,7 +44,7 @@
 
 ![image](https://user-images.githubusercontent.com/45091118/158159110-f58e8fb0-d691-4ce8-9062-46364cf03f65.png)
 
-分类器的训练过程可以参考https://blog.csdn.net/uncle_ll/article/details/122669365?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-1-122669365.pc_agg_new_rank&utm_term=OpenCV%E8%AE%AD%E7%BB%83%E6%9E%84%E5%BB%BA%E5%88%86%E7%B1%BB%E5%99%A8&spm=1000.2123.3001.4430
+分类器的训练过程可以参考：[级联分类器的训练](https://blog.csdn.net/uncle_ll/article/details/122669365?utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~aggregatepage~first_rank_ecpm_v1~rank_v31_ecpm-1-122669365.pc_agg_new_rank&utm_term=OpenCV%E8%AE%AD%E7%BB%83%E6%9E%84%E5%BB%BA%E5%88%86%E7%B1%BB%E5%99%A8&spm=1000.2123.3001.4430)
 
 
 
